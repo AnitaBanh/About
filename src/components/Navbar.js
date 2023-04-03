@@ -5,7 +5,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
 
 
-// import Logo from '../assets/logo.png';
+import absmall from '../assets/absmall.jpg';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -16,7 +16,7 @@ const Navbar = () => {
       text-gray-100"
     >
       <div>
-        {/* <img src={logo} alt="logo image" style={{width: '50px'}}/> */}
+        <img className="rounded-full " src={absmall} alt="headshot image" style={{width: '50px'}} />
       </div>
 
       {/* menu */}
@@ -53,11 +53,21 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-slate-700 flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl">Home</li>
-        <li className="py-6 text-4xl">About</li>
-        <li className="py-6 text-4xl">Skills</li>
-        <li className="py-6 text-4xl">Work</li>
-        <li className="py-6 text-4xl">Contact</li>
+        <li  className="py-6 text-4xl"><Link onClick={handleClick} to="home" smooth={true} duration={500}>
+          Home
+        </Link></li>
+        <li className="py-6 text-4xl"><Link onClick={handleClick} to="about" smooth={true} duration={500}>
+          About
+        </Link></li>
+        <li className="py-6 text-4xl"><Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+          Skills
+        </Link></li>
+        <li className="py-6 text-4xl"><Link onClick={handleClick} to="work" smooth={true} duration={500}>
+          Work
+        </Link></li>
+        <li className="py-6 text-4xl"><Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+          Contact
+        </Link></li>
       </ul>
 
       {/* social icons */}
