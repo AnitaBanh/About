@@ -1,8 +1,8 @@
 {
   "name": "anitabanh-about",
   "version": "0.1.0",
-  "homepage": "http://AnitaBanh.github.io/About",
-  "private": false,
+  "homepage": "http://anitabanh.github.io/about",
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
