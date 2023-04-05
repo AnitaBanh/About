@@ -67,7 +67,7 @@ const Work = () => {
               </span>
               <br />
               <span className="text-lg text-white tracking-wider">
-                Handlebars | SQL | Sequelize| bcrypt | Express.js | Node.js
+                Handlebars | SQL | Sequelize | bcrypt | Express.js | Node.js
               </span>
               <div className="pt-8 text-center">
                 <a href="https://trivia-tracker.herokuapp.com/" target="_blank">
@@ -172,7 +172,7 @@ const Work = () => {
               </span>
               <br />
               <span className="text-lg text-white tracking-wider">
-                JavaScript
+                JavaScript | HTML
               </span>
               <div className="pt-8 text-center">
                 <a
@@ -208,7 +208,7 @@ const Work = () => {
               </span>
               <br />
               <span className="text-lg text-white tracking-wider">
-                JavaScript
+                JavaScript | HTML
               </span>
               <div className="pt-8 text-center">
                 <a
