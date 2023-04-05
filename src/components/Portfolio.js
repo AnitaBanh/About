@@ -6,7 +6,7 @@ import passwordgen from "../assets/passwordgen.png";
 import quiz from "../assets/quiz.png";
 import social from "../assets/social.png";
 
-const Work = () => {
+const Portfolio = () => {
   return (
     <div
       name="portfolio"
@@ -236,4 +236,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Portfolio;
