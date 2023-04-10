@@ -4,7 +4,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
 import abhead from "../assets/abhead.jpg";
-import resume from '../assets/ABanh Resume MERN QA.pdf'
+import resume from "../assets/ABanh Resume MERN QA.pdf";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -15,12 +15,14 @@ const Navbar = () => {
       text-gray-100"
     >
       <div>
-        <img
-          className="rounded-full border-[#7F6A93] border-2"
-          src={abhead}
-          alt="headshot image"
-          style={{ width: "50px" }}
-        />
+        <a href="https://www.linkedin.com/in/anitabanh/" target="_blank">
+          <img
+            className="rounded-full border-[#7F6A93] border-2"
+            src={abhead}
+            alt="headshot image"
+            style={{ width: "50px" }}
+          />
+        </a>
       </div>
 
       {/* menu */}
@@ -85,7 +87,12 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="portfolio" smooth={true} duration={500}>
+          <Link
+            onClick={handleClick}
+            to="portfolio"
+            smooth={true}
+            duration={500}
+          >
             Portfolio
           </Link>
         </li>
@@ -120,7 +127,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#7F6A93] ">
             <a
               className="flex justify-between items-center w-full text-gray-100"
-              href='mailto:anitabanhtx@gmail.com'
+              href="mailto:anitabanhtx@gmail.com"
             >
               Email <HiOutlineMail size={30} />
             </a>

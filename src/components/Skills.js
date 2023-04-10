@@ -6,7 +6,7 @@ import react from "../assets/react.png";
 import github from "../assets/github.png";
 import mongo from "../assets/mongo.png";
 import node from "../assets/node.png";
-import tailwind from "../assets/tailwind.png";
+import sql from "../assets/sql.png";
 
 const Skills = () => {
   return (
@@ -47,11 +47,11 @@ const Skills = () => {
           </div>
           <div className="shadow-md shaddow-[040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={mongo} alt="Mongo DB icon" />
-            <p className="my-4">Mongo DB</p>
+            <p className="my-4">MongoDB</p>
           </div>
           <div className="shadow-md shaddow-[040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={tailwind} alt="Tailwind icon" />
-            <p className="my-4">Tailwind</p>
+            <img className="w-20 mx-auto" src={sql} alt="Tailwind icon" />
+            <p className="my-4">SQL</p>
           </div>
         </div>
       </div>
