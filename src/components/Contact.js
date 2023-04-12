@@ -18,24 +18,29 @@ const Contact = () => {
           <p className="py-4">Send me a message</p>
         </div>
         <input
-          className="p-2 bg-slate-300"
+          className="p-2 bg-slate-300 text-slate-900 active:border-[#87BBA2] active:border-1 active:text-[#87BBA2]"
           type="text"
           placeholder="Name"
           name="name"
+          required
         ></input>
         <input
-          className="my-4 p-2 bg-slate-300"
+          className="my-4 p-2 bg-slate-300 text-slate-900 invalid:border-red-500 invalid:text-red-600
+          focus:invalid:border-red-500 focus:invalid:ring-red-500"
           type="email"
           placeholder="Email"
           name="email"
+          required
         ></input>
         <textarea
-          className="my-1 p-2 bg-slate-300"
+          className="my-1 p-2 bg-slate-300 text-slate-900 invalid:border-red-500 invalid:text-red-600
+          focus:invalid:border-red-500 focus:invalid:ring-red-500"
           rows="6"
           placeholder="Message"
           name="message"
+          required
         ></textarea>
-        <button className="text-white border-2 hover:bg-blue-600 hover:border-blue-600 px-4 py-3 my-4 mx-auto flex items-center">
+        <button className="text-white text-bold border-2 border-[#87BBA2] hover:bg-[#7F6A93] hover:border-[#7F6A93] px-4 py-3 my-4 mx-auto flex items-center">
           Let's connect!
         </button>
       </form>

@@ -1,6 +1,7 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -19,8 +20,9 @@ const Home = () => {
         </p>
 
         <div>
-          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-blue-600 hover:border-blue-600">
-            <Link to="portfolio" smooth={true} duration={500}>
+          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center text-bold border-[#87BBA2] hover:bg-[#7F6A93] hover:border-[#7F6A93]">
+            {/* <Link to="portfolio" smooth={true} duration={500}> */}
+            <Link to="/portfolio">
               View Projects
               </Link>
               <span className="group-hover:rotate-90 duration-300">

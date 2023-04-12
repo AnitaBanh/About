@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import { Link } from "react-scroll";
+import { Link } from 'react-router-dom';
 import abhead from "../assets/abhead.jpg";
 import resume from "../assets/ABanh Resume MERN QA.pdf";
 
@@ -28,31 +28,31 @@ const Navbar = () => {
       {/* menu */}
       <ul className="hidden md:flex">
         <li>
-          <Link to="home" smooth={true} duration={500}>
+          <Link to="/">
             Home
           </Link>
         </li>
         <li>
           {" "}
-          <Link to="about" smooth={true} duration={500}>
+          <Link to="/about">
             About
           </Link>
         </li>
         <li>
           {" "}
-          <Link to="skills" smooth={true} duration={500}>
+          <Link to="/skills">
             Skills
           </Link>
         </li>
         <li>
           {" "}
-          <Link to="portfolio" smooth={true} duration={500}>
+          <Link to="/portfolio">
             Portfolio
           </Link>
         </li>
         <li>
           {" "}
-          <Link to="contact" smooth={true} duration={500}>
+          <Link to="/contact">
             Contact
           </Link>
         </li>
@@ -72,32 +72,30 @@ const Navbar = () => {
         }
       >
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="/">
             Home
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="/about">
             About
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="/skills">
             Skills
           </Link>
         </li>
         <li className="py-6 text-4xl">
           <Link
             onClick={handleClick}
-            to="portfolio"
-            smooth={true}
-            duration={500}
+            to="/portfolio"
           >
             Portfolio
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="/contact">
             Contact
           </Link>
         </li>
