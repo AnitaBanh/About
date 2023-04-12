@@ -10,7 +10,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="w-full h-screen bg-slate-900 text-slate-100"
+      className="w-full min-h-screen bg-slate-900 text-slate-100 pt-[80px]"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
@@ -21,7 +21,7 @@ const Portfolio = () => {
         </div>
 
         {/* Projects */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* grid item */}
           <div
             style={{ backgroundImage: `url(${pairsUS})` }}

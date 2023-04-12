@@ -19,7 +19,7 @@ const Home = () => {
         </p>
 
         <div>
-          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-blue-600 hover:border-blue-600">
+          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center border-[#87BBA2] hover:bg-[#7F6A93] hover:border-[#7F6A93]">
             <Link to="portfolio" smooth={true} duration={500}>
               View Projects
               </Link>
