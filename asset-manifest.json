@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/About/static/css/main.c94f7eab.css",
-    "main.js": "/About/static/js/main.c1f672a0.js",
+    "main.js": "/About/static/js/main.75b7eacd.js",
     "static/media/social.png": "/About/static/media/social.d407b803a1d09f1309ad.png",
     "static/media/trivia.png": "/About/static/media/trivia.4e79222dac6442aded03.png",
     "static/media/abhead.jpg": "/About/static/media/abhead.ae39c13061e98c1d5c1c.jpg",
-    "static/media/ABanh Resume MERN QA.pdf": "/About/static/media/ABanh Resume MERN QA.24f7c18708a4a548683e.pdf",
     "static/media/pairsUS.png": "/About/static/media/pairsUS.c80fe421e5a5e4ae87e3.png",
+    "static/media/ABanh Resume MERN QA 1.pdf": "/About/static/media/ABanh Resume MERN QA 1.b481111b546e4136ba1c.pdf",
     "static/media/react.png": "/About/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/About/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/mongo.png": "/About/static/media/mongo.2a1528ddc31d4ce8518d.png",
@@ -20,10 +20,10 @@
     "static/media/quiz.png": "/About/static/media/quiz.608028a903620c7ac914.png",
     "index.html": "/About/index.html",
     "main.c94f7eab.css.map": "/About/static/css/main.c94f7eab.css.map",
-    "main.c1f672a0.js.map": "/About/static/js/main.c1f672a0.js.map"
+    "main.75b7eacd.js.map": "/About/static/js/main.75b7eacd.js.map"
   },
   "entrypoints": [
     "static/css/main.c94f7eab.css",
-    "static/js/main.c1f672a0.js"
+    "static/js/main.75b7eacd.js"
   ]
 }
