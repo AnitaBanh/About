@@ -4,7 +4,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
 import abhead from "../assets/abhead.jpg";
-import resume from "../assets/ABanh Resume MERN QA.pdf";
+import resume from "../assets/ABanh Resume MERN QA 1.pdf";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
