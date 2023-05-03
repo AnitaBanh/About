@@ -1,7 +1,7 @@
 # About
 
 ## Description
-Personal portfolio page built with React and Tailwind.  
+Portfolio page built with React and Tailwind. Includes example of projects built with technologies such as React, JavaScript, Mongo DB, SQL, Express.js, and HTML.
 [![My Skills](https://skillicons.dev/icons?i=react,tailwind,github)](https://skillicons.dev)  
 
 ## License
